@@ -1,4 +1,9 @@
-# This script is for making vector database.
+#!/usr/bin/env python3
+"""
+Setup script for IntelliCourse project.
+Run this script to initialize the vector database and test the system.
+"""
+
 import os
 import sys
 from document_processor import initialize_vector_store
